@@ -1,3 +1,7 @@
+
+-- virtual resolution
+local push = require 'push'
+
 function love.load()
     message = "Hello, Rescue Newt!"
 end
