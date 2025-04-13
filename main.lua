@@ -12,7 +12,7 @@ local speed = 10
 
 function love.load()
     love.graphics.setDefaultFilter("nearest", "nearest")
-    sprite = love.graphics.newImage("graphics/alien-queen-example.png")
+    sprite = love.graphics.newImage("graphics/ellen-ripley.png")
     x = virtualWidth / 2 - sprite:getWidth() / 2
     y = virtualHeight / 2 - sprite:getHeight() / 2
     push:setupScreen(virtualWidth, virtualHeight, 640, 480, {
