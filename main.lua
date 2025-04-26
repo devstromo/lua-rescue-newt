@@ -42,6 +42,8 @@ end
 
 function love.draw()
     push:apply("start")
+    love.graphics.clear()
+    love.graphics.setColor(32, 32, 32, 32)
     love.graphics.draw(sprite, x, y)
     push:apply("end")
 end
